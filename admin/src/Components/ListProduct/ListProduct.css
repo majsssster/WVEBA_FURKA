@@ -1,0 +1,103 @@
+.list-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 740px;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 6px;
+    background: white;
+}
+.listproduct-format-main{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 3fr 1fr 1fr;
+    width: 100%;
+    margin-left: 20px;
+    padding: 10px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+}
+.listproduct-format{
+    align-items: center;
+    font-weight: 500;
+    gap: 35px;
+}
+.add-product-selector{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b;
+    border-radius: 4px;
+}
+.listproduct-product-icon{
+    height: 80px;
+}
+
+.listproduct-remove-icon{
+    cursor: pointer;
+    margin: auto;
+}
+.listproduct-edit-icon{
+    cursor: pointer;
+    margin: auto;
+}
+.listproduct-allproduct{
+    overflow-y: auto;
+}
+
+@media(max-width:1024px){
+    .list-product{
+        box-sizing: border-box;
+        width: 95%;
+        height: 100%;
+        padding: 10px 20px;
+        margin: 20px auto;
+    }
+    .listproduct-format-main{
+        padding: 15px 0px;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        color: #454545;
+        font-size: 12px;
+    }
+    .listproduct-format{
+        gap: 25px;
+    }
+    .listproduct-user-icon{
+        height: 60px;
+    }
+    .listproduct-edit-icon{
+        height: 35px;
+    }
+    .listproduct-remove-icon{
+        height: 35px;
+    }
+
+}
+
+@media(max-width:800px){
+    .list-product{
+        box-sizing: border-box;
+        width: 95%;
+        height: 100%;
+        padding: 10px 20px;
+        margin: 20px auto;
+    }
+    .listproduct-format-main{
+        padding: 15px 0px;
+        color: #454545;
+        font-size: 12px;
+    }
+    .listproduct-user-icon{
+        height: 60px;
+    }
+    .listproduct-edit-icon{
+        height: 30px;
+    }
+    .listproduct-remove-icon{
+        height: 30px;
+    }
+}

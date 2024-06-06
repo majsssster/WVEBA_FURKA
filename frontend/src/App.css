@@ -1,0 +1,12 @@
+.App{
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+  }
